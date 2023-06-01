@@ -18,7 +18,7 @@ function setup() {
 
 function draw() {
   background(0);
-    tint(r, g, b, 200);
+    tint(r, g, b, 300);
     image(img3, x, y, 400,550);
     image(img3, x*2, y*2, 400,550);
     image(img3, x*3, y*3, 400,550);
