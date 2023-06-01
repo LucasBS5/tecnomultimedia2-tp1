@@ -22,7 +22,7 @@ function draw() {
     image(img3, x, y, 400,550);
     image(img3, x*2, y*2, 400,550);
     image(img3, x*3, y*3, 400,550);
-    if (mouseY === pmouseY && mouseX === pmouseX) {
+    if (mouseY == pmouseY && mouseX == pmouseX) {
     tint(r+2, g+2, b+2, 200);
     image(img4, x, y, 400, 550);
     image(img4, x*2, y*2, 400, 550);
